@@ -5,7 +5,7 @@
 	color: #fff;
 	cursor: pointer;
 	font-size: 12px;
-	left: 0;
+	left: 20;
 	margin-left: -100px;
 	padding: 5px 2px 5px 5px;
 	position: fixed;
@@ -68,9 +68,9 @@
 
 #live2d {
 	cursor: grab;
-	height: 200px;
+	height: 150px;
 	position: relative;
-	width: 200px;
+	width: 150px;
 }
 
 #live2d:active {
