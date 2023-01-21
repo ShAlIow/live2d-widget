@@ -2,6 +2,8 @@
 	bottom: -1000px;
 	left: 50px;
 	position: fixed;
+	line-height: 0;
+	margin-bottom: -10px;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
 	z-index: 30;
@@ -27,7 +29,7 @@
  }
  #waifu:hover {
   -webkit-transform:scale(.5) translate(-150px,150px);
-  transform:scale(.5) translate(-150px,150px)
+  transform:scale(.5) translate(-150px,150px) 
  }
 }
 
@@ -318,14 +320,14 @@
  .live2d-tool {
   border-radius:0 5px 5px 0;
   width:35px;
-  left:1px;
+  left:0;
   color:#fff;
   font-size:13px;
   padding:5px 0;
   padding-top:5px;
   padding-right:0;
   padding-bottom:5px;
-  padding-left:1px;
+  padding-left:0;
   font-weight:700;
   z-index:99;
   visibility:visible;
@@ -359,7 +361,7 @@
    padding-top:5px;
    padding-right:0;
    padding-bottom:5px;
-   padding-left:1px;
+   padding-left:0;
    font-weight:700;
    z-index:99;
    writing-mode:vertical-rl;
@@ -367,7 +369,7 @@
    transition-duration:.5s,.5s
   }
   .isWebKit .live2d-tool:hover {
-   margin-left:-1px
+   margin-left:-17px
   }
  }
 }
@@ -392,7 +394,7 @@
   .live2d-tool {
    border-radius:0 5px 5px 0;
    width:35px;
-   left:1px;
+   left:0;
    color:#fff;
    font-size:13px;
    padding:5px 0;
@@ -414,7 +416,7 @@
 @supports(-ms-ime-align:auto) {
  .live2d-tool {
   margin-left:0;
-  left:1px;
+  left:0;
   transiton-property:left,bottom
  }
  .live2d-tool:hover {
@@ -425,7 +427,7 @@
  position:relative
 }
 .hide-live2d {
- bottom:0px;
+ bottom:0;
  visibility:visible
 }
 .close-live2d {
