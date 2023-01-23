@@ -320,14 +320,14 @@
  .live2d-tool {
   border-radius:0 5px 5px 0;
   width:35px;
-  left:-17px;
+  left:0;
   color:#fff;
   font-size:13px;
   padding:5px 0;
   padding-top:5px;
   padding-right:0;
   padding-bottom:5px;
-  padding-left:-17px;
+  padding-left:0;
   font-weight:700;
   z-index:99;
   visibility:visible;
@@ -361,7 +361,7 @@
    padding-top:5px;
    padding-right:0;
    padding-bottom:5px;
-   padding-left:-17px;
+   padding-left:0;
    font-weight:700;
    z-index:99;
    writing-mode:vertical-rl;
@@ -394,7 +394,7 @@
   .live2d-tool {
    border-radius:0 5px 5px 0;
    width:35px;
-   left:-17px;
+   left:0;
    color:#fff;
    font-size:13px;
    padding:5px 0;
@@ -416,7 +416,7 @@
 @supports(-ms-ime-align:auto) {
  .live2d-tool {
   margin-left:-17px;
-  left:-17px;
+  left:0;
   transiton-property:left,bottom
  }
  .live2d-tool:hover {
